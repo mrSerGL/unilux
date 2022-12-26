@@ -732,8 +732,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(/images/hero/slider/1.webp);
-  background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(/images/hero/slider/1.webp);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/hero/slider/1.webp);
+  background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/hero/slider/1.webp);
 }
 @media screen and (min-width: 480px) {
   .hero--overlay {
@@ -755,32 +755,32 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero--overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(/images/hero/slider/1.webp);
-    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(/images/hero/slider/1.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/hero/slider/1.webp);
+    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/hero/slider/1.webp);
   }
 }
 @media screen and (min-width: 769px) {
   .hero--overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(/images/hero/slider/1.webp);
-    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(/images/hero/slider/1.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/hero/slider/1.webp);
+    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/hero/slider/1.webp);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero--overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(/images/hero/slider/1.webp);
-    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(/images/hero/slider/1.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/hero/slider/1.webp);
+    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/hero/slider/1.webp);
   }
 }
 @media screen and (min-width: 1201px) {
   .hero--overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(/images/hero/slider/1.webp);
-    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(/images/hero/slider/1.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/hero/slider/1.webp);
+    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/hero/slider/1.webp);
   }
 }
 @media screen and (min-width: 1201px) and (min-device-pixel-ratio: 2), screen and (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1201px) and (min-resolution: 192dpi), screen and (min-width: 1201px) and (min-resolution: 2dppx) {
   .hero--overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(/images/hero/slider/1.webp);
-    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(/images/hero/slider/1.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/hero/slider/1.webp);
+    background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/hero/slider/1.webp);
   }
 }
 
