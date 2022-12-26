@@ -1,0 +1,15 @@
+/* === ANIMATION FOOTER inpit === */
+
+@keyframes changeBgColor {
+  0% {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  50% {
+    border-color: var(--accent-text-color);
+  }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}

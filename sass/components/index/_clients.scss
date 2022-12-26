@@ -1,0 +1,109 @@
+.clients-section-title {
+  font-size: 28px;
+  line-height: 1.18;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
+
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 30px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+// === margin bottom ===
+
+// .clients__item:not(:nth-last-child(-n + 2)) {
+//   @media screen and (max-width: $tablet) {
+//     margin-bottom: 30px;
+//   }
+// }
+
+// .clients__item:not(:nth-last-child(-n + 3)) {
+//   @media screen and (max-width: $desktop) {
+//     margin-bottom: 30px;
+//   }
+// }
+
+// .clients__item {
+//   @media screen and (min-width: $desktop) {
+//     margin-bottom: 0;
+//   }
+// }
+
+// === margin right ===
+
+// .clients__item:nth-child(2n + 1) {
+//   @media screen and (max-width: $tablet) {
+//     margin-right: 30px;
+//   }
+// }
+
+// .clients__item:not(:nth-child(3n)) {
+//   @media screen and (min-width: $tablet) {
+//     margin-right: 30px;
+//   }
+// }
+
+// .clients__item:not(:last-child) {
+//   @media screen and (min-width: $desktop) {
+//     margin-right: 30px;
+//   }
+// }
+
+// === размер блока ===
+
+.clients__item {
+  @media screen and (max-width: $tablet) {
+    width: calc((100% - 30px) / 2);
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: calc((100% - 90px) / 3);
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: calc((100% - 150px) / 6);
+  }
+}
+
+// .clients__item:not(:last-child) {
+//   @media screen and (min-width: $desktop) {
+//     margin-right: 30px;
+//   }
+// }
+
+.clients__link {
+  display: flex;
+
+  height: 92px;
+
+  justify-content: center;
+  align-items: center;
+
+  color: var(--fill-svg-icons);
+
+  border: 1px solid currentColor;
+  border-radius: 4px;
+
+  transition-property: color;
+  transition-duration: var(--time-transition);
+  transition-timing-function: var(--function-transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+    border-color: var(--accent-text-color);
+  }
+}
+
+.clients__logo {
+  fill: currentColor;
+}

@@ -1,0 +1,103 @@
+.team-section {
+  background-color: var(--background-section-two);
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px
+
+  // @media screen and (min-width: $tablet) {
+  // display: flex;
+  // flex-wrap: wrap;
+  // gap: 30px
+   
+  // }
+}
+
+.team-section_title {
+  @media screen and (max-width: $desktop) {
+    font-size: 28px;
+  }
+}
+
+.team__item {
+  
+  display: inline-block;
+
+  &--border-bg-shadow {
+    background-color: var(--background-section-one);
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  // === размер блока ===
+
+  @media screen and (max-width: $tablet) {
+    width: 100%;
+    }
+
+  @media screen and (min-width: $tablet) {
+    width: calc((100% - 30px) / 2);
+    }
+
+  @media screen and (min-width: $desktop) {
+  width: calc((100% - 90px) / 4);
+  }
+
+  // === маржин right ===
+
+  // @media screen and (min-width: $tablet) {
+  // &:not(:nth-child(2n)) {
+  //   margin-right: 30px;
+  // }
+  // }
+
+  // @media screen and (min-width: $desktop) {
+  //   &:not(:nth-child(4n)) {
+  //     margin-right: 30px;
+  //   }
+  //   }
+
+  // === margin botom ===
+
+  // @media screen and (max-width: 767px) {
+  //   &:not(:last-child) {
+  //     margin-bottom: 30px;
+  //     gap: 30px
+  //   }
+  //   }
+
+  // @media screen and (min-width: $tablet) {
+  //   margin-bottom: 0;
+      
+  //   }
+}
+
+.team__img {
+  margin-bottom: 30px;
+}
+
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: var(--headers-text-color);
+
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.team__profession {
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
+}
