@@ -68,72 +68,58 @@
       var(--hero-gradient-color-one),
       var(--hero-gradient-color-two)
     ),
-    url(../images/hero/header_img_sm@1x.jpg);
+    url(../images/hero/slider/1.webp);
 
-    
-    // mobile screen retina
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  // mobile screen retina
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: linear-gradient(
         to right,
         var(--hero-gradient-color-one),
         var(--hero-gradient-color-two)
       ),
-      url(../images/hero/header_img_sm@2x.jpg);
+      url(../images/hero/slider/1.webp);
   }
 
-
-    // tablet screen
-  @media  screen and (min-width: 769px) {
-
+  // tablet screen
+  @media screen and (min-width: 769px) {
     background-image: linear-gradient(
-    to right,
-    var(--hero-gradient-color-one),
-    var(--hero-gradient-color-two)
-  ),
-  url(../images/hero/header_img_md@1x.jpg);
+        to right,
+        var(--hero-gradient-color-one),
+        var(--hero-gradient-color-two)
+      ),
+      url(../images/hero/slider/1.webp);
 
-  
-  // tablet screen retina
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  background-image: linear-gradient(
-      to right,
-      var(--hero-gradient-color-one),
-      var(--hero-gradient-color-two)
-    ),
-    url(../images/hero/header_img_md@2x.jpg);
-  
-    
-}
-    
+    // tablet screen retina
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          var(--hero-gradient-color-one),
+          var(--hero-gradient-color-two)
+        ),
+        url(../images/hero/slider/1.webp);
+    }
   }
 
-   // desktop screen
+  // desktop screen
 
-  @media  screen and (min-width: 1201px) {
+  @media screen and (min-width: 1201px) {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color-one),
+        var(--hero-gradient-color-two)
+      ),
+      url(../images/hero/slider/1.webp);
 
-  background-image: linear-gradient(
-    to right,
-    var(--hero-gradient-color-one),
-    var(--hero-gradient-color-two)
-  ),
-  url(../images/hero/header_Img_lg@1x.jpg);
-
-  
-  // desktop screen retina
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  background-image: linear-gradient(
-      to right,
-      var(--hero-gradient-color-one),
-      var(--hero-gradient-color-two)
-    ),
-    url(../images/hero/header_Img_lg@2x.jpg);
-}
-    
+    // desktop screen retina
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          var(--hero-gradient-color-one),
+          var(--hero-gradient-color-two)
+        ),
+        url(../images/hero/slider/1.webp);
+    }
   }
-
 }
 
 .hero__title {
