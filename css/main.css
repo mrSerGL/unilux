@@ -920,8 +920,9 @@ body {
 }
 
 .mission-section {
-  padding-top: 0;
-  display: none;
+  margin-top: 60px;
+  padding-top: 0x;
+  background-color: var(--background-section-two);
 }
 @media screen and (min-width: 1200px) {
   .mission-section {
