@@ -939,12 +939,12 @@ body {
 
 .mission__item {
   display: block;
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 90px) / 4);
 }
 .mission__item--position {
   position: relative;
 }
-.mission__item:not(:nth-child(3n)) {
+.mission__item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 
