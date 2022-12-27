@@ -1,10 +1,10 @@
 .mission-section {
-  margin-top: 60px;
+  // margin-top: 60px;
   padding-top: 0x;
 
   background-color: var(--background-section-two);
 
-  display: none;
+  // display: none;
 
   @media screen and (min-width: $desktop) {
     display: block;
@@ -14,20 +14,58 @@
 .mission {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px
+
+  
 }
 
 .mission__item {
-  display: block;
-  width: calc((100% - 90px) / 4);
+  // display: block;
+  // width: calc((100% - 90px) / 4);
 
   &--position {
     position: relative;
   }
 
-  &:not(:nth-child(4n)) {
-    margin-right: 30px;
+
+
+  // &:not(:nth-child(4n)) {
+  //   margin-right: 30px;
+  // }
+
+
+// =====================
+
+
+
+  @media screen and (min-width: $tablet) {
+    width: calc((100% - 30px) / 2);
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: calc((100% - 90px) / 4);
   }
 }
+
+// === margin right ===
+
+// .mission__item:not(:nth-child(2n)) {
+//   @media screen and (min-width: $tablet) {
+//     margin-right: 30px;
+//   }
+// }
+
+// .mission__item:not(:nth-child(4n)) {
+//   @media screen and (min-width: $desktop) {
+//     margin-right: 30px;
+//   }
+
+// =====================
+
+
+
+
 
 .mission__label {
   position: absolute;
