@@ -177,7 +177,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .slider-section {
-    width: 1600px;
+    width: 100%;
   }
 }
 
@@ -1127,7 +1127,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--mission-label-text);
-  background: rgba(47, 48, 58, 0.8);
+  background: rgba(47, 48, 58, 0.7);
 }
 
 .soc-networks {
