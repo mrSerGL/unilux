@@ -34,7 +34,7 @@
     <div class="header--flex container">
       <a class="logo link" href="./index.html">
         <!-- <span class="logo__text-one">Web</span><span class="logo__text-two">Studio</span> -->
-        <img src="./images/logo.webp" alt="" />
+        <img class="header__logo-img" src="./images/logo.webp" alt="" />
       </a>
 
       <!-- ===== nav menu ===== -->
@@ -55,19 +55,19 @@
 
       <ul class="contacts__list list">
         <li class="contacts__item link">
-          <a class="contacts__link" href="mailto:info@devstudio.com">
+          <a class="contacts__link" href="mailto:unilux3d@gmail.com">
             <svg class="contacts__icon" width="14" height="10">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
-            <span>info@devstudio.com</span>
+            <span>unilux3d@gmail.com</span>
           </a>
         </li>
         <li class="contacts__item link">
-          <a class="contacts__link" href="tel:+380961111111">
+          <a class="contacts__link" href="tel:+380964983084">
             <svg class="contacts__icon" width="10" height="14">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
-            <span>+38 096 111 11 11</span>
+            <span>+38 096 498 3 084</span>
           </a>
         </li>
       </ul>
@@ -112,7 +112,7 @@
       </div>
 
       <div class="slider__over">
-        <h1 class="hero__title">ЮНИЛЮКС - ФАСАД</h1>
+        <h1 class="hero__title">ЮНІЛЮКС - ФАСАД</h1>
 
         <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
 
@@ -126,19 +126,22 @@
         <h2 class="section-title">Чим ми займаємося</h2>
 
         <ul class="mission list">
-          <li class="mission__item link">
-            <div class="mission__item--position">
-              <!-- <img
-                  srcset="./images/mission/img_lg@1x.jpg, ./images/mission/img_lg@2x.jpg"
-                  src="./images/mission/img_lg@1x.jpg"
-                  width="370"
-                  height="294"
-                  alt="business"
-                /> -->
-              <img src="./images/mission/unilux_missions/facades.jpg" width="370" height="294" alt="business" />
 
-              <p class="mission__label">Фасади МДФ фрезеровані</p>
-            </div>
+          <li class="mission__item link">
+            <a href="./portfolio.html">
+              <div class="mission__item--position">
+                <!-- <img
+        srcset="./images/mission/img_lg@1x.jpg, ./images/mission/img_lg@2x.jpg"
+        src="./images/mission/img_lg@1x.jpg"
+        width="370"
+        height="294"
+        alt="business"
+      /> -->
+                <img src="./images/mission/unilux_missions/facades.jpg" width="370" height="294" alt="business" />
+
+                <p class="mission__label">Фасади МДФ фрезеровані</p>
+              </div>
+            </a>
           </li>
 
           <li class="mission__item link">
@@ -538,22 +541,28 @@
 
       <div class="footer__logo">
         <a class="footer-logo__link link" href="./index.html">
-          <span class="logo__text-one">Web</span><span class="logo__text-two logo__text-two--white">Studio</span></a>
+          <!-- <span class="logo__text-one">Web</span><span class="logo__text-two logo__text-two--white">Studio</span> -->
+          <img class="footer_logo-img" src="./images/logo.webp" alt="Лого Юнілюкс" />
+        </a>
 
         <!-- === footer__address === -->
 
         <address class="footer__address">
           <ul class="address__list list">
             <li class="address__item">
-              <a class="address__map link" href="https://goo.gl/maps/MKDDi8GhxzNny77W8" target="_blank"
-                rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+              <a class="address__map link" href="https://goo.gl/maps/ywPC9npWBGT68qtR8" target="_blank"
+                rel="noopener noreferrer">ул.Викентія Хвойки, 10, офис 33, Київ, Україна</a>
             </li>
             <li class="address__item">
-              <a class="address__email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="address__email link" href="mailto:unilux3d@gmail.com">unilux3d@gmail.com</a>
             </li>
             <li class="address__item">
-              <a class="address__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="address__tel link" href="tel:+380964983084">+38 096 498-30-84</a>
             </li>
+            <li class="address__item">
+              <a class="address__tel link" href="tel:+380502060970">+38 050 206-09-70</a>
+            </li>
+
           </ul>
         </address>
       </div>
@@ -601,6 +610,7 @@
           </li>
         </ul>
       </div>
+
 
       <!-- === subscribe === -->
 
@@ -697,7 +707,7 @@
 
     <ul class="menu-nav__list list">
       <li class="menu-nav__item">
-        <a class="menu-nav__link link current" href="./index.html">Студія</a>
+        <a class="menu-nav__link link current" href="./index.html">На гору</a>
       </li>
       <li class="menu-nav__item">
         <a class="menu-nav__link link" href="./portfolio.html">Портфоліо</a>
@@ -705,18 +715,33 @@
       <li class="menu-nav__item">
         <a class="menu-nav__link link" href="">Контакти</a>
       </li>
+
     </ul>
 
     <ul class="menu-address list">
       <li class="menu-address__item">
-        <a class="menu-address__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="menu-address__tel link" href="https://goo.gl/maps/ywPC9npWBGT68qtR8" target="_blank"
+          rel="noopener noreferrer">Мапа</a>
       </li>
       <li class="menu-address__item">
-        <a class="menu-address__email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="menu-address__tel link" href="tel:+380964983084">+38 096 498-30-84</a>
+      </li>
+      <li class="menu-address__item">
+        <a class="menu-address__tel link" href="tel:+380502060970">+38 050 206-09-70</a>
+      </li>
+      <li class="menu-address__item">
+        <a class="menu-address__email link" href="mailto:unilux3d@gmail.com">unilux3d@gmail.com</a>
       </li>
     </ul>
 
-    <ul class="menu-socnetworks list">
+    <P>ул.Викентія Хвойки, 10, офис 33, Київ, Україна</P>
+
+    <p>
+      середа - пʼятниця: 09:00 – 19:00 <br>
+      субота - неділя: зачинено
+    </p>
+
+    <!-- <ul class="menu-socnetworks list">
       <li class="menu-socnetworks__item">
         <a class="menu-socnetworks__link soc-networks__link--background link" href="" target="_blank"
           rel="nofollow noopener noreferrer" aria-label="Instagram">Instagram</a>
@@ -754,7 +779,7 @@
           Linkedin
         </a>
       </li>
-    </ul>
+    </ul> -->
   </div>
 
   <!-- ===== SCRIPTS ============= -->

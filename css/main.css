@@ -173,12 +173,13 @@ img {
   .slider-section {
     display: block;
     width: 768px;
+    padding-top: 90px;
   }
 }
 @media screen and (min-width: 1200px) {
   .slider-section {
     width: 100%;
-    margin-top: 90px;
+    padding-top: 90px;
   }
 }
 
@@ -347,8 +348,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -362,6 +361,16 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 767px) {
+  .section-title {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-title {
+    padding-top: 0px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section-title {
     font-size: 36px;
@@ -369,7 +378,7 @@ body {
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #ececec;
   position: fixed;
   top: 0px;
@@ -414,6 +423,10 @@ body {
 
 .logo__text-two {
   color: var(--logo-color-two);
+}
+
+.header__logo-img {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
@@ -563,7 +576,8 @@ body {
 }
 
 .footer {
-  background-color: var(--background-footer);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-gradient-color-one)), to(var(--hero-gradient-color-two))), url(../images/bg/bg1_wood.jpg);
+  background-image: linear-gradient(to right, var(--hero-gradient-color-one), var(--hero-gradient-color-two)), url(../images/bg/bg1_wood.jpg);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -627,6 +641,22 @@ body {
   }
 }
 
+.footer_logo-img {
+  opacity: 0.7;
+}
+@media screen and (max-width: 1199px) {
+  .footer_logo-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer_logo-img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .logo__text-two--white {
   color: var(--logo-color-three);
 }
@@ -684,6 +714,7 @@ body {
 
 /* = footer__soc-networks = */
 .footer__soc-networks {
+  display: none;
   width: 206px;
   margin-bottom: 60px;
   margin-right: auto;
@@ -844,9 +875,19 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 10px;
+  color: var(--primary-text-color);
+  background-color: var(--background-footer);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+.footer-button-subscribe:hover, .footer-button-subscribe:focus {
+  color: var(--button-text-color-one);
+  background-color: var(--background-footer);
+}
+.footer-button-subscribe:active {
+  color: var(--primary-text-color);
+  background-color: var(--background-footer);
 }
 @media screen and (min-width: 1200px) {
   .footer-button-subscribe {
@@ -1748,6 +1789,8 @@ body {
   height: 100vh;
   padding: 48px 40px;
   background-color: var(--background-body);
+  border: 1px solid gray;
+  border-radius: 10px;
   z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -1886,8 +1929,12 @@ body {
           transition-timing-function: var(--function-transition);
 }
 
+.portfolio_filter {
+  background-color: var(--background-section-two);
+  padding-top: 90px;
+}
+
 .filter__list {
-  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

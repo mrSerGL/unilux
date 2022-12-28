@@ -1,8 +1,18 @@
+
+.portfolio_filter {
+  background-color: var(--background-section-two);
+  padding-top: 90px;
+}
+
+
+
+
 .filter__list {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  // gap: 8px;
 
 
   @media screen and (min-width: $tablet) {

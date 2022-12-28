@@ -1,5 +1,12 @@
 .footer {
-  background-color: var(--background-footer);
+
+  background-image: linear-gradient(
+    to right,
+    var(--hero-gradient-color-one),
+    var(--hero-gradient-color-two)
+  ),
+  url(../images/bg/bg1_wood.jpg);
+
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -8,10 +15,7 @@
   // display: flex;
  text-align: center;
 
- 
-  
-
-  @media screen and (max-width: $tablet) {
+   @media screen and (max-width: $tablet) {
     
     // flex-direction: column;
     // align-items: center;
@@ -42,15 +46,6 @@
 .footer__logo {
   margin-bottom: 60px;
 
-
-
-  // @media screen and (min-width: $tablet) {
-  //   // width: 231px;
-  //   margin-right: 0;
-   
-  
-  // }
-
   @media screen and (min-width: $desktop) {
     margin-right: 70px;
     margin-bottom: 0;
@@ -71,15 +66,27 @@
   text-decoration: none;
 
   margin-right: 0;
-
-
-  
+ 
 
   @media screen and (min-width: $desktop) {
     // margin-right: 94px;
     padding-top: 16px;
     padding-bottom: 16px;
     
+  }
+}
+
+.footer_logo-img {
+opacity: 0.7;
+
+  @media screen and (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -170,6 +177,7 @@ width: 100%;
 /* = footer__soc-networks = */
 
 .footer__soc-networks {
+  display: none;
   width: 206px;
   margin-bottom: 60px;
 
@@ -334,9 +342,23 @@ margin-left: auto;
   justify-content: center;
   gap: 10px;
 
+  color: var(--primary-text-color);
+  background-color: var(--background-footer);
+
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+
+  &:hover,
+  &:focus {
+    color: var(--button-text-color-one);
+    background-color: var(--background-footer);
+  }
+
+  &:active {
+    color: var(--primary-text-color);
+    background-color: var(--background-footer);
+  }
 
   @media screen and (min-width: $desktop) {
   margin: 0;

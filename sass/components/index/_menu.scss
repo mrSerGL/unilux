@@ -39,14 +39,21 @@
   height: 100vh;
   padding: 48px 40px;
   background-color: var(--background-body);
+
+  border: 1px solid gray;;
+  border-radius: 10px; 
+
   z-index: 999;
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+
 }
 
 .menu-container.is-open {
   transform: translateX(0);
+
+
 }
 
 .menu-container .menu-toggle {
@@ -60,6 +67,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+
 }
 
 .mobile-menu .link {
@@ -67,6 +75,7 @@
   padding: 10px;
   color: #fff;
   text-decoration: none;
+  
 }
 
 .menu-nav__list {
