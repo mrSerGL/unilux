@@ -82,15 +82,33 @@
 
 
 
-        <h1 class="visually-hidden">PORTFOLIO</h1>
-        <h2 class="section-title">Фасади МДФ фрезеровані</h2>
+        <div class="portfolio__header-fixed">
+          <h1 class="visually-hidden">PORTFOLIO</h1>
+          <!-- <h2 class="section-title">Фасади МДФ фрезеровані</h2> -->
 
-        <div class="facades__filter" id="myBtnContainer">
-          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-          <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-          <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-          <button class="btn" onclick="filterSelection('people')"> People</button>
-          <button class="btn" onclick="filterSelection('classic')"> Класіка</button>
+          <div class="facades__filter" id="myBtnContainer">
+            <!-- <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+    <button class="btn" onclick="filterSelection('people')"> People</button>
+    <button class="btn" onclick="filterSelection('classic')"> Класіка</button> -->
+
+            <ul class="filter__list list">
+              <li class="filter__item link">
+                <button class="filter__button btn active" type="button" onclick="filterSelection('all')">Усі</button>
+              </li>
+              <li class="filter__item link">
+                <button class="filter__button btn" type="button" onclick="filterSelection('classic')">Класік</button>
+              </li>
+              <li class="filter__item link">
+                <button class="filter__button btn" type="button" onclick="filterSelection('people')">Додатки</button>
+              </li>
+              <li class="filter__item link">
+                <button class="filter__button btn" type="button" onclick="filterSelection('cars')">Дизайн</button>
+              </li>
+
+            </ul>
+
+          </div>
         </div>
 
         <!-- Portfolio Gallery Grid -->
@@ -99,19 +117,19 @@
             <a href="./images/portfolio/mdf_classica/juilett.jpg" target="_blank">
               <div class="column classic">
                 <div class="content">
-                  <img src="./images/portfolio/mdf_classica/juilett.jpg" alt="Меблевий Фасад МДФ Фрезерування Джульєтта"
+                  <img src="./images/portfolio/mdf_classica/juilett.jpg" alt="Меблевий Фасад МДФ Фрезерування"
                     style="width:100%">
                   <h4>Джульєтта</h4>
                   <p>Меблевий Фасад МДФ Фрезерування</p>
                 </div>
               </div>
             </a>
-            <a href="./images/portfolio/mdf_classica/kl-03.jpg" target="_blank">
+            <a href="./images/portfolio/mdf_classica/kl-01.jpg" target="_blank">
               <div class="column classic">
                 <div class="content">
-                  <img src="./images/portfolio/mdf_classica/kl-03.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-03"
+                  <img src="./images/portfolio/mdf_classica/kl-01.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-01"
                     style="width:100%">
-                  <h4>KL-03</h4>
+                  <h4>KL-01</h4>
                   <p>Меблевий Фасад МДФ Фрезерування</p>
                 </div>
               </div>
@@ -135,8 +153,69 @@
                   <p>Меблевий Фасад МДФ Фрезерування</p>
                 </div>
               </div>
+            </a>
+            <a href="./images/portfolio/mdf_classica/kl-02-03.jpg" target="_blank">
+              <div class="column classic">
+                <div class="content">
+                  <img src="./images/portfolio/mdf_classica/kl-02-03.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-02-03"
+                    style="width:100%">
+                  <h4>KL-02-03</h4>
+                  <p>Меблевий Фасад МДФ Фрезерування</p>
+                </div>
+              </div>
+            </a>
+            <a href="./images/portfolio/mdf_classica/kl-02-04.jpg" target="_blank">
+              <div class="column classic">
+                <div class="content">
+                  <img src="./images/portfolio/mdf_classica/kl-02-04.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-02-04"
+                    style="width:100%">
+                  <h4>KL-02-04</h4>
+                  <p>Меблевий Фасад МДФ Фрезерування</p>
+                </div>
+              </div>
+            </a>
+            <a href="./images/portfolio/mdf_classica/kl-03.jpg" target="_blank">
+              <div class="column classic">
+                <div class="content">
+                  <img src="./images/portfolio/mdf_classica/kl-03.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-03"
+                    style="width:100%">
+                  <h4>KL-03</h4>
+                  <p>Меблевий Фасад МДФ Фрезерування</p>
+                </div>
+              </div>
+            </a>
+            <a href="./images/portfolio/mdf_classica/kl-04-01.jpg" target="_blank">
+              <div class="column classic">
+                <div class="content">
+                  <img src="./images/portfolio/mdf_classica/kl-04-01.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-04-01"
+                    style="width:100%">
+                  <h4>KL-04-01</h4>
+                  <p>Меблевий Фасад МДФ Фрезерування</p>
+                </div>
+              </div>
+            </a>
+            <a href="./images/portfolio/mdf_classica/kl-04-02.jpg" target="_blank">
+              <div class="column classic">
+                <div class="content">
+                  <img src="./images/portfolio/mdf_classica/kl-04-02.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-04-02"
+                    style="width:100%">
+                  <h4>KL-04-02</h4>
+                  <p>Меблевий Фасад МДФ Фрезерування</p>
+                </div>
+              </div>
+            </a>
+            <a href="./images/portfolio/mdf_classica/kl-04-03.jpg" target="_blank">
+              <div class="column classic">
+                <div class="content">
+                  <img src="./images/portfolio/mdf_classica/kl-04-03.jpg" alt="Меблевий Фасад МДФ Фрезерування KL-04-03"
+                    style="width:100%">
+                  <h4>KL-04-03</h4>
+                  <p>Меблевий Фасад МДФ Фрезерування</p>
+                </div>
+              </div>
+            </a>
           </div>
-          </a>
+
 
 
 
