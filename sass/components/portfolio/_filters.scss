@@ -1,23 +1,22 @@
-
 .portfolio_filter {
   background-color: var(--background-section-two);
   padding-top: 90px;
 }
 
-
-
-
 .filter__list {
-  // margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  // justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   // gap: 8px;
 
+  // margin-bottom: 50px;
+  // margin-top: 15px;
 
   @media screen and (min-width: $tablet) {
-   justify-content: center;
-  } 
+    justify-content: center;
+  }
 }
 
 .filter__item:not(:last-of-type) {
@@ -25,25 +24,24 @@
 }
 
 .filter__button {
-
   width: auto;
   height: 38px;
 
-  padding: 6px 25px;
+  padding: 6px 15px;
   margin-bottom: 15px;
-  
 
-  @media  screen and (min-width: $tablet) {
-  margin-bottom: 0;
-  }
+  border: 1px solid gray;
 
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
 
-  color: var(--headers-text-color);
-  background-color: #f5f4fa;
+  // color: var(--headers-text-color);
+  // background-color: #f5f4fa;
+
+  color: var(--primary-text-color);
+  background-color: var(--background-footer);
 
   box-shadow: none;
 
@@ -51,12 +49,21 @@
   transition-duration: var(--time-transition);
   transition-timing-function: var(--function-transition);
 
+  // &:hover,
+  // &:focus {
+  //   background-color: var(--accent-text-color);
+  //   color: #fff;
+
   &:hover,
   &:focus {
-    background-color: var(--accent-text-color);
-    color: #fff;
+    color: var(--button-text-color-one);
+    background-color: var(--background-footer);
+  }
 
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 0;
   }
 }
