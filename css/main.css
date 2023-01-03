@@ -2109,4 +2109,84 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
+}
+
+/* Center website */
+.portfolio__facades {
+  padding-top: 90px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.facades__filter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  display: none; /* Hide all elements by default */
+}
+@media only screen and (min-width: 768px) {
+  .column {
+    width: 33.3333333333%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .column {
+    width: 25%;
+  }
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn, .footer-button-subscribe, .hero__button, .modal__send-button {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.btn:hover, .footer-button-subscribe:hover, .hero__button:hover, .modal__send-button:hover {
+  background-color: #ddd;
+}
+
+.btn.active, .active.footer-button-subscribe, .active.hero__button, .active.modal__send-button {
+  background-color: #666;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
