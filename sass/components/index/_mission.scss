@@ -11,6 +11,14 @@
   }
 }
 
+.mission__about {
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+  }
+}
+
 .mission {
   display: flex;
   flex-wrap: wrap;
