@@ -62,6 +62,7 @@
   &:hover,
   &:focus {
     color: var(--accent-text-color);
+    
   }
 
   &::after {
@@ -84,4 +85,5 @@
     transition-duration: var(--time-transition);
     transition-timing-function: var(--function-transition);
   }
+
 }
