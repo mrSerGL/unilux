@@ -2156,7 +2156,7 @@ body {
 
 /* Center website */
 .portfolio__facades {
-  padding-top: 120px;
+  padding-top: 185px;
 }
 
 .portfolio__header-fixed {
@@ -2165,7 +2165,11 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  padding-top: 100px;
+  padding-top: 90px;
+}
+
+.portfolio__header-fixed h2 {
+  margin-bottom: 15px;
 }
 
 .main {
