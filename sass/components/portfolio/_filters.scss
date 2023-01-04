@@ -20,22 +20,35 @@
 }
 
 .filter__item:not(:last-of-type) {
-  margin-right: 8px;
+  margin-right: 6px;
+
+  @media screen and (min-width: $mobile) {
+    margin-right: 8px;
+  }
 }
 
 .filter__button {
+
+  font-size: 14px;
   width: auto;
   height: 38px;
 
-  padding: 6px 15px;
-  margin-bottom: 15px;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: $mobile) {
+    padding: 6px 15px;
+    margin-bottom: 15px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+  }
 
   border: 1px solid gray;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(26 / 16);
-  letter-spacing: 0.03em;
+ 
 
   // color: var(--headers-text-color);
   // background-color: #f5f4fa;

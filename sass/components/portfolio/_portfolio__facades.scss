@@ -12,14 +12,18 @@
 }
 
 .portfolio__header-fixed {
-  // display: block;
-  // width: 100%;
+  padding-top: 90px;
+
   position: fixed;
   top: 0;
   left: 15px;
-  // transform: translate(-50%, 0);
+  
 
-  padding-top: 90px;
+  @media screen and (min-width: 768px) {
+    transform: translate(50%, 0);
+  }
+
+
 }
 
 .portfolio__header-fixed h2 {
