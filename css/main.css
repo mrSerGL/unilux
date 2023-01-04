@@ -1805,6 +1805,7 @@ body {
   border-radius: 50%;
   outline: none;
   margin-left: auto;
+  overflow: scroll;
 }
 
 @media (min-width: 768px) {
@@ -1869,16 +1870,17 @@ body {
 }
 
 .menu-nav__list {
+  padding: 10px;
   margin-bottom: auto;
 }
 
 .menu-nav__item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 15px;
 }
 
 .menu-nav__link {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 1.175;
   letter-spacing: 0.02em;
   color: var(--headers-text-color);
@@ -1937,12 +1939,12 @@ body {
 }
 
 .menu-address__item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 
 .menu-address__tel {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 20px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #2196f3;
@@ -1953,7 +1955,7 @@ body {
 
 .menu-address__email {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
@@ -2285,9 +2287,6 @@ h1 {
   -webkit-column-gap: 60px;
      -moz-column-gap: 60px;
           column-gap: 60px;
-  -webkit-column-rule: 5px dashed gray;
-     -moz-column-rule: 5px dashed gray;
-          column-rule: 5px dashed gray;
   height: 400px;
   -webkit-column-fill: auto;
      -moz-column-fill: auto;
