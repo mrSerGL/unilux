@@ -2172,9 +2172,7 @@ body {
 .portfolio__header-fixed {
   position: fixed;
   top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  left: 15px;
   padding-top: 90px;
 }
 
@@ -2186,6 +2184,10 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main h2 {
+  padding: 0;
 }
 
 h1 {

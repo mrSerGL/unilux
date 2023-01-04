@@ -12,15 +12,18 @@
 }
 
 .portfolio__header-fixed {
+  // display: block;
+  // width: 100%;
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
+  left: 15px;
+  // transform: translate(-50%, 0);
 
   padding-top: 90px;
 }
 
 .portfolio__header-fixed h2 {
+
   margin-bottom: 15px;
 }
 
@@ -29,6 +32,10 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .main h2 {
+    padding: 0;
   }
   
   h1 {
