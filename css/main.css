@@ -903,7 +903,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
   min-width: 260px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -2170,7 +2170,7 @@ body {
 
 /* Center website */
 .portfolio__facades {
-  padding-top: 185px;
+  padding-top: 90px;
 }
 
 .portfolio__facades p {
@@ -2181,21 +2181,8 @@ body {
   text-align: center;
 }
 
-.portfolio__header-fixed {
-  padding-top: 90px;
-  position: fixed;
-  top: 0;
-  left: 15px;
-}
-@media screen and (min-width: 768px) {
-  .portfolio__header-fixed {
-    -webkit-transform: translate(50%, 0);
-            transform: translate(50%, 0);
-  }
-}
-
 .portfolio__header-fixed h2 {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .main {
@@ -2211,11 +2198,6 @@ body {
 h1 {
   font-size: 50px;
   word-break: break-all;
-}
-
-.facades__filter {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .row {
