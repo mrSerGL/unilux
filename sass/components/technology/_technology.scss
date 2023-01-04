@@ -1,0 +1,42 @@
+.section__technology {
+    padding-top: 90px;
+}
+
+.section__technology h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section__technology h2 {
+    margin: 15px 0;
+    padding: 15px;
+
+    color: #fff;
+    background-color: gray;
+
+    // column-span: all;
+}
+
+.section__technology span {
+    color: black;
+}
+
+// .section__technology p {
+//     break-inside: avoid;
+// }
+
+
+.howto__description {
+    text-align: justify;
+    columns: 2 400px;
+    column-gap: 60px;
+
+    column-rule: 5px dashed gray;
+
+    height: 400px;
+    column-fill: auto;
+
+
+
+   
+}

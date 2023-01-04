@@ -2255,4 +2255,41 @@ h1 {
 .btn.active, .active.footer-button-subscribe, .active.hero__button, .active.modal__send-button {
   background-color: #666;
   color: white;
+}
+
+.section__technology {
+  padding-top: 90px;
+}
+
+.section__technology h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.section__technology h2 {
+  margin: 15px 0;
+  padding: 15px;
+  color: #fff;
+  background-color: gray;
+}
+
+.section__technology span {
+  color: black;
+}
+
+.howto__description {
+  text-align: justify;
+  -webkit-columns: 2 400px;
+     -moz-columns: 2 400px;
+          columns: 2 400px;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  -webkit-column-rule: 5px dashed gray;
+     -moz-column-rule: 5px dashed gray;
+          column-rule: 5px dashed gray;
+  height: 400px;
+  -webkit-column-fill: auto;
+     -moz-column-fill: auto;
+          column-fill: auto;
 }/*# sourceMappingURL=main.css.map */
