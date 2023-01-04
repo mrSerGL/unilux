@@ -2159,6 +2159,14 @@ body {
   padding-top: 185px;
 }
 
+.portfolio__facades p {
+  text-align: center;
+}
+
+.portfolio__facades h4 {
+  text-align: center;
+}
+
 .portfolio__header-fixed {
   position: fixed;
   top: 0;
