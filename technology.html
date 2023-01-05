@@ -1,301 +1,419 @@
 <!DOCTYPE html>
 <html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Studio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/main.min.css" />
-  <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
-</head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <div class="header--flex container">
+        <a class="logo link" href="./index.html">
+          <!-- <span class="logo__text-one">Web</span><span class="logo__text-two">Studio</span> -->
+          <img class="header__logo-img" src="./images/logo.webp" alt="" />
+        </a>
 
-<body>
-  <!-- ===== HEADER ===== -->
-  <header class="header">
-    <div class="header--flex container">
-      <a class="logo link" href="./index.html">
-        <!-- <span class="logo__text-one">Web</span><span class="logo__text-two">Studio</span> -->
-        <img class="header__logo-img" src="./images/logo.webp" alt="" />
-      </a>
+        <!-- ===== nav menu ===== -->
 
-      <!-- ===== nav menu ===== -->
-
-      <nav class="nav">
-        <ul class="nav__list list">
-
-          <li class="nav__item">
-            <a class="nav__link link" href="./index.html">Студія</a>
-          </li>
-
-          <div class="dropdown">
-            <li class="nav__item dropbtn">
-              <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Студія</a>
             </li>
-            <div class="dropdown-content">
-              <a href="./portfolio.html">Фрезеровані фасади</a>
-              <a href="./portfolio-veneer.html">Шпоновані фасади</a>
-              <a href="./portfolio.html">Панелі декоративні</a>
-              <a href="./portfolio.html">Фарбування МДФ</a>
-            </div>
-          </div>
 
-          <!-- <li class="nav__item">
+            <div class="dropdown">
+              <li class="nav__item dropbtn">
+                <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <div class="dropdown-content">
+                <a href="./portfolio.html">Фрезеровані фасади</a>
+                <a href="./portfolio-veneer.html">Шпоновані фасади</a>
+                <a href="./portfolio.html">Панелі декоративні</a>
+                <a href="./portfolio.html">Фарбування МДФ</a>
+              </div>
+            </div>
+
+            <!-- <li class="nav__item">
             <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
           </li> -->
 
+            <li class="nav__item">
+              <a class="nav__link link current" href="./technology.html">Техногогія</a>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="nav__item"><a class="nav__link link current" href="./technology.html">Техногогія</a></li>
+        <!-- ===== header__contacts ===== -->
+
+        <ul class="contacts__list list">
+          <li class="contacts__item link">
+            <a class="contacts__link" href="mailto:unilux3d@gmail.com">
+              <svg class="contacts__icon" width="14" height="10">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <span>unilux3d@gmail.com</span>
+            </a>
+          </li>
+          <li class="contacts__item link">
+            <a class="contacts__link" href="tel:+380964983084">
+              <svg class="contacts__icon" width="10" height="14">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <span>+38 096 498 3 084</span>
+            </a>
+          </li>
         </ul>
-      </nav>
 
-      <!-- ===== header__contacts ===== -->
+        <!-- ===== form mobile menu OPEN button -->
 
-      <ul class="contacts__list list">
-        <li class="contacts__item link">
-          <a class="contacts__link" href="mailto:unilux3d@gmail.com">
-            <svg class="contacts__icon" width="14" height="10">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-            <span>unilux3d@gmail.com</span>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="" width="40" height="40">
+            <use href="./images/icons.svg#menu_40px"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+
+    <main>
+      <section class="section__technology section container">
+        <h1>Як це робиться?</h1>
+
+        <div class="howto__description">
+          <h2 class="section-title">Фрезування</h2>
+          <p>
+            <span>Виготовлення деталей меблів та елементів інтер'єру за кресленнями замовника</span>
+            займає більшу частину нашого виробництва. Це широкий асортимент деталей від простих
+            меблевих панелей, полиць і фасадів до вигнутих предметів інтер'єру складної форми та
+            фрезерування. Деталі меблів і інтер'єру вирізаються за розміром, фрезеруються,
+            шліфуються і покриваються фарбою необхідного кольору і глянцю. Зв'яжіться з нами. Ми з
+            радістю обговоримо деталі щодо розмірів, дизайну, шаблонів свердління або вимог до
+            фрезерування.
+          </p>
+          <h2 class="section-title">Кольоровий Фасад</h2>
+          <p>
+            <span> Кольоровий Фасад являє собою основу з МДФ</span>, на яку за складними
+            технологіями наносяться акрилові барвники й лаки з подальшим поліруванням. На вибір
+            замовника представлений великий асортимент кольорів і відтінків фарб за каталогами RAL,
+            або по фірмовим колеровочникам SAYERLACK, що дозволить зробити їх унікальними. RAL –
+            шкала кольорів фарбування: Увага! Через різні налаштування моніторів відображені кольори
+            не є стандартними. Вся лакофарбова продукція розроблена на основі нових екологічно
+            чистих продуктів, які не містять активних розчинників і відповідають європейським
+            вимогам захисту навколишнього середовища. Повний спектр кольорів, відтінків і ефектів
+            дозволить втілити будь-які технічні рішення в умовах зростаючих вимог ринку, що
+            відповідають бажанням і фантазіям клієнтів, наприклад, хоча б Фасад. Гнуті Фасади
+            випускаються в наступних варіантах: стандартні (2 радіуси) – 300 мм і 350 мм і висотою
+            до 850 мм (увігнуті і опуклі); нестандартність – абсолютно ексклюзивна конфігурація
+            фасадів – повнооб’ємні, увігнуті, опуклі, радіусами від 50 мм і до 2800 мм. Переваги
+            кольорових фасадів з МДФ Кольорові фасади з МДФ мають масу переваг і лише один недолік:
+            вони відносяться до категорії дорогих меблевих фасадів. Головним недоліком кольорових
+            фасадів з МДФ вважається їх ціна – вони досягають цінового діапазону дорогих фасадів.
+            Але якщо розглянути технологію виробництва такого фасаду, то стає зрозуміло, звідки
+            береться досить висока ціна: для виготовлення якісних кольорових фасадів з МДФ
+            використовується зовсім не кисть, а дороге імпортне обладнання та екологічно чисті
+            лакофарбові матеріали. Перша відмінність кольорових фасадів з МДФ, яке впадає в очі
+            будь-якому покупцеві, це безсумнівна зовнішня оригінальність таких фасадів. За допомогою
+            кольорових фасадів МДФ можна створювати унікальні дизайни інтер'єру. Але зовнішня
+            привабливість - не єдина перевага кольорових фасадів з МДФ. Головною проблемою багатьох
+            меблевих фасадів є слабка стійкість до впливу підвищеної вологості і перепадів
+            температур. Тому більшість фасадів не рекомендується експлуатувати в агресивних умовах
+            кухонь або ванних кімнат. Але тільки не кольоровий фасад МДФ! Ці фасади абсолютно стійкі
+            і до вологості, і до перепадів температур, і до впливу сонячного ультрафіолету. Вони не
+            надуваються, не тріскаються і не вицвітають навіть на кухні у господині, яка любить
+            готувати. Ще один плюс кольорових фасадів з МДФ - вони не вбирають запахи. Для
+            використання в кухонних меблях це важлива перевага. Які бувають кольорові МДФ фасади
+            Забарвлення фасаду МДФ може бути будь-якою. Виготовляються як прямі, так і зігнуті
+            (криволинейные) із забарвленням на будь-який смак і бажання, на будь-яку фантазію
+            дизайнера. Колірна лінійка кольорових фасадів МДФ - це сотні варіантів, які здатні
+            задовольнити найвибагливішого покупця. Крім того, кольорові фасади МДФ покриттів
+            відрізняються формою. Він може бути непрозорим або глянцевим із застосуванням захисного
+            лаку. Також у виробництві кольорових фасадів з МДФ використовуються різні спецефекти.
+            Найпопулярніші варіанти – металік, перли, перламутр, хамелеон. Для тих, хто зацікавлений
+            у створенні солідного дизайну інтер'єру з благородним нальотом старовини, пропонуємо
+            фасад МДФ кольоровий з ефектом старіння (патинований фасад). Кольоровий МДФ фасад: чому
+            це дорого Технологія нанесення барвників на плиту МДФ досить складна; отримання якісного
+            кольорового фасаду з МДФ вимагає майже космічної акуратності. Після лакофарбового
+            покриття фасад шліфується. Так що якщо скласти технологічні труднощі виготовлення
+            кольорових фасадів з МДФ, добротність і екологічність витратних матеріалів, то стає
+            зрозуміло, чому такий Фасад відноситься до елітної цінової категорії. А технологія
+            виробництва дозволяє отримувати не просто гарний меблевий фасад, а надійний,
+            довговічний, естетичний і екологічно безпечний фасад. На ринку є пропозиції кольорових
+            фасадів з МДФ і від виробників ручної роботи. Такі пропозиції досить дешеві, але ці
+            фасади позбавлені всіх переваг справжніх кольорових фасадів з МДФ, крім оригінального
+            яскравого фарбування. Порушення технологічного процесу та використання дешевих
+            лакофарбових матеріалів роблять меблі Фасадом кустарного виробництва недовговічним,
+            нестійким до вологи та перепаду температур. В результаті вони не виправдовують навіть
+            зниження ціни в порівнянні з реальними якісними кольоровими фасадами з МДФ. Ми
+            покриваємо фасад тільки екологічно чистою фарбою без домішок, які можуть завдати шкоди
+            здоров'ю. Різноманітність колірної гами, можливості поєднання квітів і фасадів з МДФ -
+            це те, що ми можемо порекомендувати вам сьогодні
+          </p>
+          <h2 class="section-title">Фарбування</h2>
+          <p>
+            <span>Малярні послуги. Фарбуємо та лакуємо МДФ, ЛМДП, дерево, шпон.</span> В основному
+            це меблеві дверцята, різні меблеві щити, вагонка, двері. У нас є кілька фарбувальних
+            барів, де, в залежності від потреби, ми виконуємо роботу за допомогою фарбувального
+            апарату або ручним напиленням, тому ми виконуємо як великі, так і дрібні замовлення. .
+            Використовуємо матеріали ICA, Becker acroma та інших виробників. Глянець поверхонь,
+            кількість шарів за вашим бажанням. Ми можемо зберегти для вас звичну та використовувану
+            на даний момент технологію покриття або запропонувати власне рішення, оскільки ми
+            накопичили значний досвід.
+          </p>
+          <p>
+            МДФ відомий як один з найнадійніших і довговічних матеріалів у виробництві меблів.
+            Яскравість і глибина кольору фарбованого МДФ додає додаткової привабливості. Колір можна
+            вибрати за каталогами RAL COLOR і NCS (The Natural Color System). Це означає фарбування
+            виробу в будь-який колір без додаткових витрат.МДФ також пропонує широкий вибір
+            дизайнерських рішень для ваших меблів. Він може варіюватися від класичного до хай-тек і
+            підійде для вашої кухні, офісу або будь-якої іншої кімнати. велика різноманітність типів
+            меблевих фасадів: гладкі, фрезеровані, каркасні, з вбудованими ручками та ін.; різні
+            види обробки: матова, глянцева або глянцева; відсутність склеєних країв означає
+            фарбований МДФ, якщо він має високу водостійкість.
+          </p>
+          <h2 class="section-title">МДФ</h2>
+          <p>
+            МДФ – ідеальний матеріал для рекламної індустрії Вішалки та таблички У рекламній техніці
+            для інтер'єру МДФ також часто виявляється корисним матеріалом, оскільки його можна без
+            особливих зусиль облагороджувати та обробляти. На наших прикладах ми показуємо вам
+            виготовлення 3D літер або маленьких рекламних вивісок для інтер’єру за допомогою
+            маршрутизатора High-Z і вішалок з арабськими шрифтами, виготовлених на фрезерних
+            верстатах RapotX-SL, які зараз висять у торговому центрі в Дубаї. Грунтування та
+            лакування МДФ У сфері рекламної техніки МДФ часто використовується як панелі, масивні
+            рекламні щити або 3D буквені вивіски. Єдиний недолік: матеріал деревноволокнистих плит
+            середньої щільності в основному підходить для використання всередині приміщень, оскільки
+            застосування захисту від атмосферних впливів вимагає великих витрат. Однак щоб він був
+            стійким до атмосферних впливів, його легко загрунтувати і покрити лаком. Спеціальна
+            атмосферостійка МДФ Tricoya Дуже міцні МДФ-плити Tricoya не тільки стійкі до грибків,
+            але й надзвичайно водовідштовхувальні. Тому вони підходять для зовнішнього використання,
+            наприклад, для фасадів, віконних частин, дверей, садових меблів або компонентів дитячих
+            майданчиків. Для ванних кімнат і оздоровчих закладів вони ідеально підходять для
+            використання всередині приміщень. Довговічність становить 50 років на відкритому повітрі
+            та 25 років при прямому контакті з землею. Доступна міцність до 18 мм. МДФ універсальний
+            МДФ є одним з найбільш оброблених деревних виробів у світі. Абревіатура розшифровується
+            як ДВП середньої щільності. Ці дошки виготовлені з відходів виробництва – деревної
+            стружки. Схожий на ДСП, тільки більш тонкої структури. Для виробництва МДФ плит дрібна
+            деревна стружка пресується за допомогою спеціального клею в суміші один з одним під
+            високим тиском і температурою. У результаті виходить універсальна деревна ДВП з
+            адаптивними властивостями. МДФ у 3D та 2D прес-формі або модель, що виготовляє форму для
+            термоформування Деякі з наших клієнтів використовують МДФ для виробництва форм глибокої
+            витяжки. Для цього ідеально підходить матеріал, який пропускає повітря. У прикладі
+            праворуч ми показуємо вам кілька простих форм для термоформування 3D-форм. Окремі
+            відфрезеровані частини МДФ просто накладаються, склеюються шарами, а потім знову
+            заповнюються та шліфуються. Результатом є функціональна тривимірна форма для глибокої
+            витяжки
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER =====   -->
+
+    <footer class="footer">
+      <div class="footer--flex container">
+        <h2 class="visually-hidden">Контакти і адреса</h2>
+
+        <div class="footer__logo">
+          <a class="footer-logo__link link" href="./index.html">
+            <!-- <span class="logo__text-one">Web</span><span class="logo__text-two logo__text-two--white">Studio</span> -->
+            <img src="./images/logo.webp" alt="Лого Юнілюкс" />
           </a>
+
+          <!-- === footer__address === -->
+
+          <address class="footer__address">
+            <ul class="address__list list">
+              <li class="address__item">
+                <a
+                  class="address__map link"
+                  href="https://goo.gl/maps/ywPC9npWBGT68qtR8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >ул.Викентія Хвойки, 10, офис 33, Київ, Україна</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address__email link" href="mailto:unilux3d@gmail.com"
+                  >unilux3d@gmail.com</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address__tel link" href="tel:+380964983084">+38 096 498-30-84</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <!-- === footer soc-networks === -->
+
+        <div class="footer__soc-networks">
+          <p class="soc-networks__title">приєднуйтесь</p>
+
+          <ul class="soc-networks list">
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Twitter"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- === subscribe === -->
+
+        <div class="footer__subscribe">
+          <p class="subscribe__title">підпишіться на розсилку</p>
+
+          <form class="form-subscribe form">
+            <div class="form-subscribe--flex">
+              <div class="form-subscribe--position">
+                <input
+                  class="form-subscribe__email-input"
+                  type="email"
+                  name="email"
+                  placeholder=" "
+                  id="email"
+                  required
+                />
+                <label class="form-subscribe__label" for="email">E-mail</label>
+              </div>
+
+              <button type="submit" class="footer-button-subscribe">
+                <span>Підписатися</span>
+                <svg class="" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====== Mobile menu ===== -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="" width="40" height="40">
+          <use href="./images/icons.svg#close_40px"></use>
+        </svg>
+      </button>
+
+      <ul class="menu-nav__list list">
+        <!-- <li class="menu-nav__item">
+        <a class="menu-nav__link link current" href="./index.html">На гору</a>
+      </li> -->
+        <li class="menu-nav__item">
+          <a class="menu-nav__link link" href="./portfolio.html">&#9734; фрезеровані</a>
         </li>
-        <li class="contacts__item link">
-          <a class="contacts__link" href="tel:+380964983084">
-            <svg class="contacts__icon" width="10" height="14">
-              <use href="./images/icons.svg#icon-smartphone"></use>
-            </svg>
-            <span>+38 096 498 3 084</span>
-          </a>
+        <li class="menu-nav__item">
+          <a class="menu-nav__link link" href="./portfolio-veneer.html">&#9734; шпоновані</a>
+        </li>
+        <li class="menu-nav__item">
+          <a class="menu-nav__link link" href="./portfolio.html">&#9734; панелі</a>
+        </li>
+        <li class="menu-nav__item">
+          <a class="menu-nav__link link" href="./portfolio.html">&#9734; покраска</a>
+        </li>
+      </ul>
+      <ul class="menu-address list">
+        <li class="menu-address__item">
+          <a
+            class="menu-address__tel link"
+            href="https://goo.gl/maps/ywPC9npWBGT68qtR8"
+            target="_blank"
+            rel="noopener noreferrer"
+            >🏠 на мапі Google</a
+          >
+        </li>
+        <li class="menu-address__item">
+          <a class="menu-address__tel link" href="tel:+380964983084">&#9743; +38 096 498-30-84</a>
+        </li>
+        <li class="menu-address__item">
+          <a class="menu-address__tel link" href="tel:+380502060970">&#9743; +38 050 206-09-70</a>
+        </li>
+        <li class="menu-address__item">
+          <a class="menu-address__email link" href="mailto:unilux3d@gmail.com"
+            >&#9993; unilux3d@gmail.com</a
+          >
         </li>
       </ul>
 
-      <!-- ===== form mobile menu OPEN button -->
+      <p>ул.Викентія Хвойки, 10, офис 33, Київ, Україна</p>
 
-      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg class="" width="40" height="40">
-          <use href="./images/icons.svg#menu_40px"></use>
-        </svg>
-      </button>
-    </div>
-  </header>
+      <p>
+        середа - пʼятниця: 09:00 – 18:00 <br />
+        субота - неділя: зачинено
+      </p>
 
-  <!-- ===== MAIN ===== -->
-
-  <main>
-
-
-    <section class="section__technology section container">
-
-      <h1>Як це робиться?</h1>
-
-
-      <div class="howto__description">
-        <h2 class="section-title">Фрезування</h2>
-        <p>
-          <span>Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. A optio dicta voluptatem facilis
-          accusamus temporibus
-          repellendus facere minima accusantium laudantium consequuntur vero officiis unde, veniam, doloribus quisquam
-          voluptatum aperiam officia. Voluptatibus obcaecati reiciendis esse aliquid ab est quae atque quos saepe veniam
-          corporis fuga eveniet voluptates aperiam sequi, aliquam sunt totam quia animi non fugit beatae. Deserunt ipsam
-          harum reiciendis debitis iste, suscipit, nam voluptate quasi corrupti quos voluptatibus possimus dolorum
-          mollitia perferendis voluptates tenetur velit aperiam modi obcaecati enim esse. Aliquid quaerat minima
-          quisquam
-          iusto, saepe amet cupiditate repellat quas mollitia repudiandae dolor quibusdam sequi alias nostrum? Tempore,
-          voluptas!
-        </p>
-        <h2 class="section-title">Плівка ПВХ</h2>
-        <p>
-          <span>Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. A optio dicta voluptatem facilis
-          accusamus temporibus
-          repellendus facere minima accusantium laudantium consequuntur vero officiis unde, veniam, doloribus quisquam
-          voluptatum aperiam officia. Voluptatibus obcaecati reiciendis esse aliquid ab est quae atque quos saepe veniam
-          corporis fuga eveniet voluptates aperiam sequi, aliquam sunt totam quia animi non fugit beatae. Deserunt ipsam
-          harum reiciendis debitis iste, suscipit, nam voluptate quasi corrupti quos voluptatibus possimus dolorum
-          mollitia perferendis voluptates tenetur velit aperiam modi obcaecati enim esse. Aliquid quaerat minima
-          quisquam
-          iusto, saepe amet cupiditate repellat quas mollitia repudiandae dolor quibusdam sequi alias nostrum? Tempore,
-          voluptas!
-        </p>
-        <h2 class="section-title">Фарбування</h2>
-        <p>
-          <span>Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. A optio dicta voluptatem facilis
-          accusamus temporibus
-          repellendus facere minima accusantium laudantium consequuntur vero officiis unde, veniam, doloribus quisquam
-          voluptatum aperiam officia. Voluptatibus obcaecati reiciendis esse aliquid ab est quae atque quos saepe veniam
-          corporis fuga eveniet voluptates aperiam sequi, aliquam sunt totam quia animi non fugit beatae. Deserunt ipsam
-          harum reiciendis debitis iste, suscipit, nam voluptate quasi corrupti quos voluptatibus possimus dolorum
-          mollitia perferendis voluptates tenetur velit aperiam modi obcaecati enim esse. Aliquid quaerat minima
-          quisquam
-          iusto, saepe amet cupiditate repellat quas mollitia repudiandae dolor quibusdam sequi alias nostrum? Tempore,
-          voluptas!
-        </p>
-      </div>
-
-
-    </section>
-
-  </main>
-
-  <!-- ===== FOOTER =====   -->
-
-  <footer class="footer">
-    <div class="footer--flex container">
-      <h2 class="visually-hidden">Контакти і адреса</h2>
-
-      <div class="footer__logo">
-        <a class="footer-logo__link link" href="./index.html">
-          <!-- <span class="logo__text-one">Web</span><span class="logo__text-two logo__text-two--white">Studio</span> -->
-          <img src="./images/logo.webp" alt="Лого Юнілюкс" />
-        </a>
-
-        <!-- === footer__address === -->
-
-        <address class="footer__address">
-          <ul class="address__list list">
-            <li class="address__item">
-              <a class="address__map link" href="https://goo.gl/maps/ywPC9npWBGT68qtR8" target="_blank"
-                rel="noopener noreferrer">ул.Викентія Хвойки, 10, офис 33, Київ, Україна</a>
-            </li>
-            <li class="address__item">
-              <a class="address__email link" href="mailto:unilux3d@gmail.com">unilux3d@gmail.com</a>
-            </li>
-            <li class="address__item">
-              <a class="address__tel link" href="tel:+380964983084">+38 096 498-30-84</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-
-      <!-- === footer soc-networks === -->
-
-      <div class="footer__soc-networks">
-        <p class="soc-networks__title">приєднуйтесь</p>
-
-        <ul class="soc-networks list">
-          <li class="soc-networks__item">
-            <a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
-              rel="nofollow noopener noreferrer" aria-label="Instagram">
-              <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="soc-networks__item">
-            <a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
-              rel="nofollow noopener noreferrer" aria-label="Twitter">
-              <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="soc-networks__item">
-            <a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
-              rel="nofollow noopener noreferrer" aria-label="Facebook">
-              <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="soc-networks__item">
-            <a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
-              rel="nofollow noopener noreferrer" aria-label="Linkedin">
-              <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-
-      <!-- === subscribe === -->
-
-      <div class="footer__subscribe">
-        <p class="subscribe__title">підпишіться на розсилку</p>
-
-        <form class="form-subscribe form">
-          <div class="form-subscribe--flex">
-            <div class="form-subscribe--position">
-              <input class="form-subscribe__email-input" type="email" name="email" placeholder=" " id="email"
-                required />
-              <label class="form-subscribe__label" for="email">E-mail</label>
-            </div>
-
-            <button type="submit" class="footer-button-subscribe">
-              <span>Підписатися</span>
-              <svg class="" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </footer>
-
-  <!-- ====== Mobile menu ===== -->
-
-  <div class="menu-container js-menu-container" id="mobile-menu">
-    <button class="menu-toggle js-close-menu">
-      <svg class="" width="40" height="40">
-        <use href="./images/icons.svg#close_40px"></use>
-      </svg>
-    </button>
-
-    <ul class="menu-nav__list list">
-
-      <!-- <li class="menu-nav__item">
-        <a class="menu-nav__link link current" href="./index.html">На гору</a>
-      </li> -->
-      <li class="menu-nav__item">
-        <a class="menu-nav__link link" href="./portfolio.html">&#9734; фрезеровані</a>
-      </li>
-      <li class="menu-nav__item">
-        <a class="menu-nav__link link" href="./portfolio-veneer.html">&#9734; шпоновані</a>
-      </li>
-      <li class="menu-nav__item">
-        <a class="menu-nav__link link" href="./portfolio.html">&#9734; панелі</a>
-      </li>
-      <li class="menu-nav__item">
-        <a class="menu-nav__link link" href="./portfolio.html">&#9734; покраска</a>
-      </li>
-
-    </ul>
-    <ul class="menu-address list">
-      <li class="menu-address__item">
-        <a class="menu-address__tel link" href="https://goo.gl/maps/ywPC9npWBGT68qtR8" target="_blank"
-          rel="noopener noreferrer">🏠 на мапі Google</a>
-      </li>
-      <li class="menu-address__item">
-        <a class="menu-address__tel link" href="tel:+380964983084">&#9743; +38 096 498-30-84</a>
-      </li>
-      <li class="menu-address__item">
-        <a class="menu-address__tel link" href="tel:+380502060970">&#9743; +38 050 206-09-70</a>
-      </li>
-      <li class="menu-address__item">
-        <a class="menu-address__email link" href="mailto:unilux3d@gmail.com">&#9993; unilux3d@gmail.com</a>
-      </li>
-    </ul>
-
-    <P>ул.Викентія Хвойки, 10, офис 33, Київ, Україна</P>
-
-    <p>
-      середа - пʼятниця: 09:00 – 18:00 <br>
-      субота - неділя: зачинено
-    </p>
-
-    <!-- <ul class="menu-socnetworks list">
+      <!-- <ul class="menu-socnetworks list">
       <li class="menu-socnetworks__item">
         <a class="menu-socnetworks__link soc-networks__link--background link" href="" target="_blank"
           rel="nofollow noopener noreferrer" aria-label="Instagram">Instagram</a>
@@ -334,64 +452,66 @@
         </a>
       </li>
     </ul> -->
-  </div>
+    </div>
 
-  <!-- ===== SCRIPTS ============= -->
+    <!-- ===== SCRIPTS ============= -->
 
-  <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
 
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"></script>
-  <script defer src="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
 
-  <!-- === portfolio facades script === -->
-  <script>
-    filterSelection("all")
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("column");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
-
-    function w3AddClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
-      }
-    }
-
-    function w3RemoveClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
+    <!-- === portfolio facades script === -->
+    <script>
+      filterSelection('all');
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName('column');
+        if (c == 'all') c = '';
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], 'show');
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], 'show');
         }
       }
-      element.className = arr1.join(" ");
-    }
 
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(' ');
+        arr2 = name.split(' ');
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += ' ' + arr2[i];
+          }
+        }
+      }
 
-    // Add active class to the current button (highlight it)
-    var btnContainer = document.getElementById("myBtnContainer");
-    var btns = btnContainer.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  </script>
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(' ');
+        arr2 = name.split(' ');
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(' ');
+      }
 
-</body>
-
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById('myBtnContainer');
+      var btns = btnContainer.getElementsByClassName('btn');
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener('click', function () {
+          var current = document.getElementsByClassName('active');
+          current[0].className = current[0].className.replace(' active', '');
+          this.className += ' active';
+        });
+      }
+    </script>
+  </body>
 </html>
