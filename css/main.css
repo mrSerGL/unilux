@@ -1087,6 +1087,15 @@ body {
   box-shadow: 3px 3px 10px 3px #000000;
 }
 
+.benefits__link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .benefits__item:not(:nth-child(2n)) {
     margin-right: 30px;
@@ -1416,7 +1425,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 92px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

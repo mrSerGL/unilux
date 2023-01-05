@@ -24,6 +24,16 @@
   }
 }
 
+.benefits__link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color); 
+  text-decoration: none;
+}
+
 // === margin right ===
 
 .benefits__item:not(:nth-child(2n)) {
