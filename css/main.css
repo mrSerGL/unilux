@@ -1157,12 +1157,25 @@ body {
 }
 
 .mission-section {
-  padding-top: 0x;
   background-color: var(--background-section-two);
+  padding-top: 90px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .mission-section {
-    display: block;
+    padding-top: 0;
+  }
+}
+
+.mission-section h2 {
+  font-size: 18px;
+  line-height: 1.16;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .mission-section h2 {
+    font-size: 28px;
+    line-height: 1.16;
+    margin-bottom: 50px;
   }
 }
 
@@ -1172,6 +1185,12 @@ body {
 @media screen and (min-width: 768px) {
   .mission__about {
     display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    -webkit-columns: 2 400px;
+       -moz-columns: 2 400px;
+            columns: 2 400px;
   }
 }
 

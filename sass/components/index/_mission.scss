@@ -1,21 +1,38 @@
 .mission-section {
-  // margin-top: 60px;
-  padding-top: 0x;
-
   background-color: var(--background-section-two);
+  padding-top: 90px;
 
-  // display: none;
-
-  @media screen and (min-width: $desktop) {
-    display: block;
+  @media screen and (min-width: $tablet) {
+    padding-top: 0;
   }
 }
+
+.mission-section h2 {
+
+  font-size: 18px;
+  line-height: 1.16;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) {
+ 
+    font-size: 28px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
+}
+
 
 .mission__about {
   display: none;
 
   @media screen and (min-width: $tablet) {
     display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: justify;
+    columns: 2 400px;
+    // column-gap: 60px;
   }
 }
 
