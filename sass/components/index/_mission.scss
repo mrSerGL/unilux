@@ -15,7 +15,7 @@
 
   @media screen and (min-width: $tablet) {
  
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.16;
     margin-bottom: 50px;
   }
@@ -46,22 +46,11 @@
 }
 
 .mission__item {
-  // display: block;
-  // width: calc((100% - 90px) / 4);
+
 
   &--position {
     position: relative;
   }
-
-
-
-  // &:not(:nth-child(4n)) {
-  //   margin-right: 30px;
-  // }
-
-
-// =====================
-
 
 
   @media screen and (min-width: $tablet) {
@@ -72,23 +61,15 @@
   @media screen and (min-width: $desktop) {
     width: calc((100% - 90px) / 4);
   }
+
+&:hover,
+&:focus {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  }
+
+
 }
-
-// === margin right ===
-
-// .mission__item:not(:nth-child(2n)) {
-//   @media screen and (min-width: $tablet) {
-//     margin-right: 30px;
-//   }
-// }
-
-// .mission__item:not(:nth-child(4n)) {
-//   @media screen and (min-width: $desktop) {
-//     margin-right: 30px;
-//   }
-
-// =====================
-
 
 
 

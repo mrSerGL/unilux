@@ -1173,7 +1173,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .mission-section h2 {
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.16;
     margin-bottom: 50px;
   }
@@ -1218,6 +1218,10 @@ body {
   .mission__item {
     width: calc((100% - 90px) / 4);
   }
+}
+.mission__item:hover, .mission__item:focus {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .mission__label {
