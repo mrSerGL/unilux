@@ -7,6 +7,7 @@
 
 .benefits__item {
   display: block;
+  padding: 15px;
 
   @media screen and (min-width: $tablet) {
     width: calc((100% - 30px) / 2);
@@ -14,6 +15,12 @@
 
   @media screen and (min-width: $desktop) {
     width: calc((100% - 90px) / 4);
+  }
+
+  &:hover,
+  &:focus {
+    -webkit-box-shadow: 3px 3px 10px 3px #000000; 
+  box-shadow: 3px 3px 10px 3px #000000;
   }
 }
 
@@ -66,7 +73,7 @@
   background-color: var(--background-section-two);
 
   @media screen and (min-width: $desktop) {
-    width: 270px;
+    width: 100%;
     height: 120px;
   }
 }
