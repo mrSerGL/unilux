@@ -2189,8 +2189,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .portfolio__header-fixed {
-    -webkit-transform: translate(50%, 0);
-            transform: translate(50%, 0);
+    left: 50%;
   }
 }
 
