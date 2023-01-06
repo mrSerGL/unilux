@@ -2338,9 +2338,13 @@ h1 {
           column-fill: auto;
 }
 
-.portfolio-painting__about p {
+.portfolio-painting-about p {
   margin: 15px 0;
   text-align: left;
+}
+
+.portfolio__painting h2 {
+  padding-top: 90px;
 }
 
 .section__ral-colors {
