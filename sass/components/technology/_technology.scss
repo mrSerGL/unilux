@@ -8,13 +8,18 @@
 }
 
 .section__technology h2 {
-    margin: 15px 0;
-    padding: 15px;
+    margin-bottom: 15px;
+    // padding: 15px;
 
-    color: #fff;
-    background-color: gray;
+    // color: #fff;
+    // background-color: gray;
 
     // column-span: all;
+}
+
+.section__technology p {
+    margin-bottom: 15px;
+    text-indent: 30px;
 }
 
 .section__technology span {

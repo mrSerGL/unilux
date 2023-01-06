@@ -2302,10 +2302,12 @@ h1 {
 }
 
 .section__technology h2 {
-  margin: 15px 0;
-  padding: 15px;
-  color: #fff;
-  background-color: gray;
+  margin-bottom: 15px;
+}
+
+.section__technology p {
+  margin-bottom: 15px;
+  text-indent: 30px;
 }
 
 .section__technology span {
