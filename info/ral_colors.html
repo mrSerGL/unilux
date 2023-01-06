@@ -1,0 +1,962 @@
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Unilux facades</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="../css/main.min.css" />
+
+</head>
+
+<body>
+	<!-- ===== HEADER ===== -->
+	<header class="header">
+		<div class="header--flex container">
+			<a class="logo link" href="../index.html">
+				<!-- <span class="logo__text-one">Web</span><span class="logo__text-two">Studio</span> -->
+				<img class="header__logo-img" src="../images/logo.webp" alt="" />
+			</a>
+
+			<!-- ===== nav menu ===== -->
+
+			<nav class="nav">
+				<ul class="nav__list list">
+
+					<li class="nav__item">
+						<a class="nav__link link" href="../index.html">Студія</a>
+					</li>
+
+					<div class="dropdown">
+						<li class="nav__item dropbtn">
+							<a class="nav__link link current" href="../portfolio.html">Портфоліо</a>
+						</li>
+						<div class="dropdown-content">
+							<a href="../portfolio.html">Фрезеровані фасади</a>
+							<a href="../portfolio-veneer.html">Шпоновані фасади</a>
+							<a href="../portfolio.html">Панелі декоративні</a>
+							<a href="../portfolio-painting.html">Фарбування МДФ</a>
+						</div>
+					</div>
+
+					<!-- <li class="nav__item">
+            <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
+          </li> -->
+
+
+					<li class="nav__item"><a class="nav__link link" href="../technology.html">Технологія</a></li>
+				</ul>
+			</nav>
+
+			<!-- ===== header__contacts ===== -->
+
+			<ul class="contacts__list list">
+				<li class="contacts__item link">
+					<a class="contacts__link" href="mailto:unilux3d@gmail.com">
+						<svg class="contacts__icon" width="14" height="10">
+							<use href="../images/icons.svg#icon-email"></use>
+						</svg>
+						<span>unilux3d@gmail.com</span>
+					</a>
+				</li>
+				<li class="contacts__item link">
+					<a class="contacts__link" href="tel:+380964983084">
+						<svg class="contacts__icon" width="10" height="14">
+							<use href="../images/icons.svg#icon-smartphone"></use>
+						</svg>
+						<span>+38 096 498 3 084</span>
+					</a>
+				</li>
+			</ul>
+
+			<!-- ===== form mobile menu OPEN button -->
+
+			<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+				<svg class="" width="40" height="40">
+					<use href="../images/icons.svg#menu_40px"></use>
+				</svg>
+			</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="section__ral-colors container">
+
+			<p>&nbsp;&nbsp;Класична кольорова колекція RAL, що стала стандартом для вибору кольору з 1927 року зараз
+				включає в&nbsp; себе 213 кольрів, у тому числі 17 металиків. Класичні кольори RAL знайшли широке
+				застосування в різних галузях економіки.</p>
+			<p>&nbsp;&nbsp;Слід враховувати, що реальний колір може відрізнятися від зображеного тут як через
+				особливості передачі кольору Вашого монітора, так і через особливості відтворення кольорів моніторами
+				взагалі.</p>
+
+
+			<div class="ral_colors">
+				<table border="1" cellpadding="1" cellspacing="1" height="1314" width="770">
+					<tbody>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(205, 186, 136) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1000 Зелено-бежевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(208, 176, 132) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1001 Бежевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(210, 170, 109) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1002 Жовто-пісочний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(249, 168, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1003 Жовтий сигнальний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(228, 158, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1004 Жовто-золотий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(203, 142, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1005 Медово-жовтий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(226, 144, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1006 Жовтий кукурудзяний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(232, 140, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1007 Жовтий нарцис</td>
+						</tr>
+						<tr>
+							<td class="color-field h40"
+								style="background: rgb(175, 128, 79) none repeat scroll 0% 0%; color: rgb(255, 255, 255);">
+								RAL 1011 Коричнево-бежевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(221, 175, 39) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1012 Лимоно-жовтий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(227, 217, 198) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1013 Білий устричний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(221, 196, 154) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1014 Кремовий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(230, 210, 181) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1015 Слонова кістка</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(241, 221, 56) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1016 Жовта сірка</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(246, 169, 80) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1017 Жовтий шафрановий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(250, 202, 48) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1018 Цинково-жовтий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(164, 143, 122) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1019 Сіро-бежевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(160, 143, 101) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1020 Оливково-жовтий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(246, 182, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1021 Жовтий ріпак</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(247, 181, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1023 Жовтий трафік</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(186, 143, 76) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1024 Жовтий, охра</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(255, 255, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1026</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(167, 127, 14) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1027 Карі</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(255, 155, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1028 Лимоно-жовтий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(226, 163, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1032 Жовтий вінниковий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(249, 154, 28) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1033 Жовтий жоржиновий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(235, 156, 82) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1034 Жовта пастель</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(144, 131, 112) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1035</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(128, 100, 63) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 1036</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(240, 146, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 1037</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(218, 110, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2000 Помаранчево-жовтий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(186, 72, 27) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2001 Червоно-помаранчевий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(191, 57, 34) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2002 Ярко-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(246, 120, 40) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2003 Помаранчевий пастельний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(226, 83, 3) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2004 Чисто-помаранчевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(255, 77, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2005</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(255, 178, 0) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 2007</td>
+							<td class="color-field h40" div="" height="70"
+								style="background: rgb(237, 107, 33) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2008 Світло-червоно-помаранчевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(222, 83, 7) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2009 Помаранчевий трафик</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(208, 93, 40) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2010 Сигнально-помаранчевий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(226, 110, 14) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2011 Помаранчевий насичений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(213, 101, 77) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2012 Помаранчево-лососевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(146, 62, 37) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 2013</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(167, 41, 32) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3000 Вогнено-червоний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(155, 36, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3001 Сигнально-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(155, 35, 33) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3002 Кармино-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(134, 26, 34) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3003 Червоний рубін</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(107, 28, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3004 Червоно- пурпурний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(89, 25, 31) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3005 Вино-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(62, 32, 34) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3007 Чорно-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(109, 52, 45) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3009 Оксидно-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(121, 36, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3011 Коричнево-червоний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(198, 132, 109) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3012 Бежево-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(151, 46, 37) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3013 Червоний томатний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(203, 115, 117) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3014 Рожевий антик</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(216, 160, 166) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 3015 Світло-рожевий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(166, 61, 47) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3016 Червоний корал</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(203, 85, 93) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3017 Рожевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(199, 63, 74) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3018 Землянично-рожевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(187, 30, 16) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3020 Рожевий трафік</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(207, 105, 85) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3022 Рожево-лососевий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(255, 45, 33) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3024</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(255, 42, 27) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3026</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(171, 39, 60) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3027 Малиново-рожевий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(204, 44, 36) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3028</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(166, 52, 55) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3031 Рожево-східний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(112, 29, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3032</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(165, 58, 45) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 3033</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(129, 97, 131) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4001 Лилово-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(141, 60, 75) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4002 Фіолетово-червоний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(196, 97, 140) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4003 Фіолетовий вереск</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(101, 30, 56) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4004 Фіолетово-бордовий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(118, 104, 154) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4005 Лилово-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(144, 51, 115) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4006 Пурпурний трафік</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(71, 36, 60) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4007 Пурпурно-фіолетовий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(132, 76, 130) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4008 Фіолетово-сигнальний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(157, 134, 146) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4009 Фіолетовий пастельний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(188, 64, 119) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4010</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(110, 99, 135) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4011</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(107, 107, 127) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 4012</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(49, 79, 111) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5000 Фіолетово-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(15, 76, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5001 Зелено-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 56, 123) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5002 Синій ультрамарин</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(31, 56, 85) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5003 Сапфірово-блакитний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(25, 30, 40) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5004 Чорно-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 83, 135) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5005 Сигнально-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(55, 107, 140) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5007 Блакитний діамант</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(43, 58, 68) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5008 Сіро-блакитний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(34, 95, 120) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5009 Блакитна глазур</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 79, 124) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5010 Синій тирлич</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(26, 43, 60) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5011 Синій стальний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 137, 182) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5012 Світло-блакитний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(25, 49, 83) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5013 Синій кобальт</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(99, 125, 150) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5014 Сизо-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 124, 176) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5015 Небесно-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 91, 140) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5017 Синій трафік</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(5, 139, 140) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5018 Бірюзовий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 94, 131) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5019 Синій капрі</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 65, 75) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5020 Синій океанічний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 117, 119) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5021 Синій водяний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(34, 45, 90) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5022 Синя нічь</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(66, 105, 140) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5023 Світло синій</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(96, 147, 172) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5024 Синя пастель</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(33, 105, 124) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5025</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(15, 48, 82) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 5026</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(60, 116, 96) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6000 Зелена патина</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(54, 103, 53) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6001 Зелений смарагд</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(50, 89, 40) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6002 Зелений лист</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(80, 83, 60) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6003 Оливково-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(2, 68, 66) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6004 Зелено-блакитний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(17, 66, 50) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6005 Зелений мох</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(60, 57, 46) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6006 Оливково-сірий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(44, 50, 34) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6007 Бутилочно-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(55, 52, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6008 Коричнево-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(39, 53, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6009 Єлово-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(77, 111, 57) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6010 Зелений травяний</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(108, 124, 89) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6011 Блідо-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(48, 61, 58) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6012 Чорно-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(125, 118, 90) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6013 Зелений тросник</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(71, 65, 53) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6014 Жовто-оливковий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(61, 61, 54) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6015 Чорно-оливковий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 105, 76) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6016 Бірюзово-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(88, 127, 64) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6017 Травнево-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(97, 153, 59) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6018 Жовто-зелений</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(185, 206, 172) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 6019 Зелена пастель</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(55, 66, 47) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6020 Зелений хром</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(138, 153, 119) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6021 Блідо-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(58, 51, 39) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6022 Оливково-коричневий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 131, 81) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6024 Зелений трафік</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(94, 110, 59) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6025 Зелена папороть</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 95, 78) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6026 Зелений опал</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(126, 186, 181) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 6027 Світло-зелений</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(49, 84, 66) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6028 Сосново-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 111, 61) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6029 Ментолово-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(35, 127, 82) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6032 Зелений сигнальний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(70, 135, 127) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6033 Бірюзово-ментоловий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(122, 172, 172) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 6034 Бірюзовий пастельний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(25, 77, 37) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6035</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(4, 87, 75) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6036</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 139, 41) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6037</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(0, 181, 26) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 6038</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(122, 136, 142) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7000 Сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(140, 150, 157) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7001 Срібно-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(129, 120, 99) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7002 Оливково-сірий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(122, 118, 105) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7003 Мохово-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(155, 155, 155) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 7004 Сірий Сигнальний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(108, 110, 107) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7005 Сірий мишачий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(118, 106, 94) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7006 Бежево-сірий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(116, 94, 61) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7008 Сірий хакі</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(93, 96, 88) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7009 Зелено-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(88, 92, 86) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7010 Брезентово-зелений</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(82, 89, 93) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7011 Залізно-сірий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(87, 93, 94) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7012 Базальтовий сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(87, 80, 68) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7013 Коричнево-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(79, 83, 88) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7015 Сірий сланець</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(56, 62, 66) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7016 Сірий антрацит</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(47, 50, 52) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7021 Чорно-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(76, 74, 68) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7022 Сіра тінь</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(128, 128, 118) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7023 Сірий бетон</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(69, 73, 78) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7024 Сірий графіт</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(55, 67, 69) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7026 Сірий граніт</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(146, 142, 133) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7030 Сірий ка/td/tr width=мінь</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(91, 104, 109) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7031 Сіро-голубий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(181, 176, 161) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7032 Сіра галька</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(127, 130, 116) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7033 Сірий цемент</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(146, 136, 111) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7034 Жовто-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(197, 199, 196) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 7035 Світло-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(151, 147, 146) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7036 Платиново-сірий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(122, 123, 122) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7037 Пильно-сірий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(176, 176, 169) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 7038 Сірий агат</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(107, 102, 94) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7039 Сірий кварц</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(152, 158, 161) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 7040 Сірій шагрень</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(142, 146, 145) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7042 Сірий трафік А</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(79, 82, 80) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7043 Сірий трафік B</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(183, 179, 168) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 7044 Сірий шовк</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(141, 146, 149) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7045</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(127, 134, 138) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7046</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(200, 200, 199) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 7047</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(129, 123, 115) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 7048</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(137, 105, 62) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8000 Зелено-коричневий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(157, 98, 43) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8001 Коричнева охра</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(121, 77, 62) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8002 Коричневий сигнальний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(126, 75, 38) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8003 Глиняно-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(141, 73, 49) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8004 Мідно-коричневий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(112, 69, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8007 Жовто-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(114, 74, 37) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8008 Оливково-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(90, 56, 38) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8011 Оріхово-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(102, 51, 43) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8012 Червоно-коричневий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(74, 53, 38) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8014 Коричневий сепія</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(94, 47, 38) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8015 Каштаново-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(76, 43, 32) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8016 Коричневий махагон</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(68, 47, 41) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8017 Шоколадно-коричневий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(61, 54, 53) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8019 Сіро-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(26, 23, 24) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8022 Чорно-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(164, 87, 41) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8023 Оранжево-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(121, 80, 56) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8024 Біжево-коричневий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(117, 88, 71) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8025 Блідо-коричневий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(81, 58, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8028 Коричнево-земляний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(127, 64, 49) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 8029</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(233, 224, 210) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9001 Кремовий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(215, 213, 203) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9002</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(236, 236, 231) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9003 Білий сигнальний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(43, 43, 44) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9004 Чорний сигнальний</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(14, 14, 16) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9005 Чорний глянсовий</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(161, 161, 160) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9006</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(135, 133, 129) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9007</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(241, 236, 225) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9010 Чистий білий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(39, 41, 43) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9011 Чорний графіт</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(241, 240, 234) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9016 Білий</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(42, 41, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9017 Чорний трафік</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(200, 203, 196) none repeat scroll 0% 0%; color: rgb(0, 0, 0);"
+								width="25%">RAL 9018 Білий папирус</td>
+							<td class="color-field h40" height="70"
+								style="background: rgb(133, 133, 131) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9022</td>
+						</tr>
+						<tr>
+							<td class="color-field h40" height="70"
+								style="background: rgb(121, 123, 122) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"
+								width="25%">RAL 9023</td>
+							<td height="70" width="25%">&nbsp;</td>
+							<td height="70" width="25%">&nbsp;</td>
+							<td height="70" width="25%">&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+			</div>
+		</section>
+	</main>
+
+	<!-- ===== FOOTER =====   -->
+
+	<footer class="footer">
+		<div class="footer--flex container">
+			<h2 class="visually-hidden">Контакти і адреса</h2>
+
+			<div class="footer__logo">
+				<a class="footer-logo__link link" href="./index.html">
+					<!-- <span class="logo__text-one">Web</span><span class="logo__text-two logo__text-two--white">Studio</span> -->
+					<img class="footer_logo-img" src="./images/logo.webp" alt="Лого Юнілюкс" />
+				</a>
+
+				<!-- === footer__address === -->
+
+				<address class="footer__address">
+					<ul class="address__list list">
+						<li class="address__item">
+							<a class="address__map link" href="https://goo.gl/maps/ywPC9npWBGT68qtR8" target="_blank"
+								rel="noopener noreferrer">ул.Викентія Хвойки, 10, офис 33, Київ, Україна</a>
+						</li>
+						<li class="address__item">
+							<a class="address__email link" href="mailto:unilux3d@gmail.com">unilux3d@gmail.com</a>
+						</li>
+						<li class="address__item">
+							<a class="address__tel link" href="tel:+380964983084">+38 096 498-30-84</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+
+			<!-- === footer soc-networks === -->
+
+			<div class="footer__soc-networks">
+				<p class="soc-networks__title">приєднуйтесь</p>
+
+				<ul class="soc-networks list">
+					<li class="soc-networks__item">
+						<a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
+							rel="nofollow noopener noreferrer" aria-label="Instagram">
+							<svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+								<use href="./images/icons.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="soc-networks__item">
+						<a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
+							rel="nofollow noopener noreferrer" aria-label="Twitter">
+							<svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+								<use href="./images/icons.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="soc-networks__item">
+						<a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
+							rel="nofollow noopener noreferrer" aria-label="Facebook">
+							<svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+								<use href="./images/icons.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="soc-networks__item">
+						<a class="soc-networks__link soc-networks__link--background link" href="" target="_blank"
+							rel="nofollow noopener noreferrer" aria-label="Linkedin">
+							<svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+								<use href="./images/icons.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+
+			<!-- === subscribe === -->
+
+			<div class="footer__subscribe">
+				<p class="subscribe__title">підпишіться на розсилку</p>
+
+				<form class="form-subscribe form">
+					<div class="form-subscribe--flex">
+						<div class="form-subscribe--position">
+							<input class="form-subscribe__email-input" type="email" name="email" placeholder=" "
+								id="email" required />
+							<label class="form-subscribe__label" for="email">E-mail</label>
+						</div>
+
+						<button type="submit" class="footer-button-subscribe">
+							<span>Підписатися</span>
+							<svg class="" width="24" height="24">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

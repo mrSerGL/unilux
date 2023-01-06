@@ -70,6 +70,7 @@
   margin: 0;
   list-style: none;
 
+
 }
 
 .mobile-menu .link {
@@ -83,6 +84,8 @@
 .menu-nav__list {
   padding: 10px;
   margin-bottom: auto;
+
+
 }
 
 .menu-nav__item:not(:last-child) {
@@ -109,6 +112,8 @@
   &:focus {
     color: var(--accent-text-color);
   }
+
+
 }
 
 .menu-address {
@@ -189,3 +194,5 @@
   transition-duration: var(--time-transition);
   transition-timing-function: var(--function-transition);
 }
+
+

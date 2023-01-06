@@ -1141,7 +1141,6 @@ body {
           justify-content: center;
   border-radius: 4px;
   margin-bottom: 30px;
-  background-color: var(--background-section-two);
 }
 @media screen and (min-width: 1200px) {
   .benefits__link {
@@ -1199,12 +1198,8 @@ body {
 @media screen and (min-width: 768px) {
   .mission__about {
     display: block;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
-    text-align: justify;
-    -webkit-columns: 2 400px;
-       -moz-columns: 2 400px;
-            columns: 2 400px;
   }
 }
 
@@ -2328,4 +2323,31 @@ h1 {
   -webkit-column-fill: auto;
      -moz-column-fill: auto;
           column-fill: auto;
+}
+
+.portfolio-painting__about p {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.section__ral-colors {
+  padding-top: 90px;
+}
+
+.section__ral-colors p {
+  margin: 15px 0;
+}
+
+.ral_colors {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ral_colors tr {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=main.css.map */
