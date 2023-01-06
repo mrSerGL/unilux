@@ -8,3 +8,35 @@
 .painting__section h2 {
     padding-top: 90px;
 }
+
+.painting-ncs__title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.painting-ncs__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.painting-ncs__item {
+    display: block;
+    width: 100%;
+    padding: 15px;
+
+    @media screen and (min-width: $tablet) {
+      width: calc((100% - 30px) / 2);
+    }
+  
+    @media screen and (min-width: $desktop) {
+      width: calc((100% - 90px) / 4);
+    }
+  
+    &:hover,
+    &:focus {
+      -webkit-box-shadow: 3px 3px 10px 3px #000000; 
+    box-shadow: 3px 3px 10px 3px #000000;
+    }
+  }
+
