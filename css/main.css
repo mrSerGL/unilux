@@ -1180,6 +1180,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.painting-ral p {
+  padding-bottom: 15px;
+}
+
 .mission-section {
   background-color: var(--background-section-two);
   padding-top: 90px;
