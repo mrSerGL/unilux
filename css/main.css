@@ -398,18 +398,21 @@ body {
   font-size: 24px;
   line-height: 1.16;
   text-decoration: none;
-  margin-right: 94px;
+  margin-right: 30px;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
 @media screen and (min-width: 768px) {
   .logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    margin-right: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 94px;
+  }
+}
+
 .logo__text-one {
   color: var(--logo-color-one);
 }
@@ -436,8 +439,16 @@ body {
   }
 }
 
-.nav__list .nav__item:not(:last-child) {
-  margin-right: 50px;
+@media screen and (min-width: 768px) {
+  .nav__list .nav__item:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__list .nav__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .nav__link {
