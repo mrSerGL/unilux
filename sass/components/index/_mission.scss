@@ -70,6 +70,10 @@
   box-shadow: 5px 5px 15px 5px #000000;
   }
 
+  // transition-property:  box-shadow;
+  transition-duration: var(--time-transition);
+  transition-timing-function: var(--function-transition);
+
 
 }
 

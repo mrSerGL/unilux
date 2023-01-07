@@ -1096,6 +1096,10 @@ h3.section-title {
 .benefits__item {
   display: block;
   padding: 15px;
+  -webkit-transition-duration: var(--time-transition);
+          transition-duration: var(--time-transition);
+  -webkit-transition-timing-function: var(--function-transition);
+          transition-timing-function: var(--function-transition);
 }
 @media screen and (min-width: 768px) {
   .benefits__item {
@@ -1244,6 +1248,12 @@ h3.section-title {
   gap: 30px;
 }
 
+.mission__item {
+  -webkit-transition-duration: var(--time-transition);
+          transition-duration: var(--time-transition);
+  -webkit-transition-timing-function: var(--function-transition);
+          transition-timing-function: var(--function-transition);
+}
 .mission__item--position {
   position: relative;
 }
