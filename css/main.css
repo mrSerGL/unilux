@@ -36,8 +36,8 @@ html {
   --background-footer: #2f303a;
   --background-hero-modal: #ffffff;
   /* ===== hero & footer button colors ===== */
-  --button-background-color: #2196f3;
-  --button-hover-color: #188ce8;
+  --button-background-color: #2f303a;
+  --button-hover-color: #757575;
   --button-active-color: #188ce8;
   --modal-close-btn-color: #ffffff;
   /* ===== logo color ===== */
@@ -887,11 +887,11 @@ body {
 }
 .footer-button-subscribe:hover, .footer-button-subscribe:focus {
   color: var(--button-text-color-one);
-  background-color: var(--background-footer);
+  background-color: var(--button-hover-color);
 }
 .footer-button-subscribe:active {
   color: var(--primary-text-color);
-  background-color: var(--background-footer);
+  background-color: var(--button-active-color);
 }
 @media screen and (min-width: 1200px) {
   .footer-button-subscribe {
@@ -2296,15 +2296,6 @@ h1 {
 /* Style the buttons */
 .btn, .footer-button-subscribe, .hero__button, .modal__send-button {
   cursor: pointer;
-}
-
-.btn:hover, .footer-button-subscribe:hover, .hero__button:hover, .modal__send-button:hover {
-  background-color: #ddd;
-}
-
-.btn.active, .active.footer-button-subscribe, .active.hero__button, .active.modal__send-button {
-  background-color: #666;
-  color: white;
 }
 
 .section__technology {

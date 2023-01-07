@@ -352,12 +352,12 @@ margin-left: auto;
   &:hover,
   &:focus {
     color: var(--button-text-color-one);
-    background-color: var(--background-footer);
+    background-color: var(--button-hover-color);
   }
 
   &:active {
     color: var(--primary-text-color);
-    background-color: var(--background-footer);
+    background-color: var(--button-active-color);
   }
 
   @media screen and (min-width: $desktop) {
