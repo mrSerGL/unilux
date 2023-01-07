@@ -65,9 +65,16 @@
   @media only screen and (min-width: 1200px) {
     width: calc(100% / 4);
   } 
+
+  transition-property: scale;
+  transition-duration: var(--time-transition);
+  transition-timing-function: var(--function-transition);
 }
 
-
+.column:hover,
+.column:focus {
+  transform: scaleY(1.01);
+}
   
   
   /* Clear floats after rows */ 
