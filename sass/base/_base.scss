@@ -60,7 +60,7 @@ body {
   }
 }
 
-.section-title {
+h2.section-title {
   font-weight: 700;
   font-size: 28px;
   line-height: 1.16;
@@ -79,29 +79,30 @@ body {
   
     @media screen and (min-width: $desktop) {
       font-size: 36px;
+    }
+
+
+}
+
+h3.section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+
+  color: var(--headers-text-color);
+
+  text-align: center;
+  margin-bottom: 15px;
+
+  // @media screen and (max-width: 767px) {
+  //   padding-top: 60px;
+  // }
+  // @media screen and (min-width: 768px) {
+  //   padding-top: 0px;
+  // }
+  
+    @media screen and (min-width: $desktop) {
+      font-size: 28px;
   
   }
-
-  .section-title.h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-  
-    color: var(--headers-text-color);
-  
-    text-align: center;
-    margin-bottom: 50px;
-  
-    @media screen and (max-width: 767px) {
-      padding-top: 60px;
-    }
-    @media screen and (min-width: 768px) {
-      padding-top: 0px;
-    }
-    
-      @media screen and (min-width: $desktop) {
-        font-size: 28px;
-    
-    }
-}
 }
