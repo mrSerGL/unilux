@@ -1308,6 +1308,7 @@ h3.section-title {
 }
 
 .soc-networks {
+  display: none;
   margin-bottom: 30px;
 }
 
